@@ -1,0 +1,181 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.login{
+    background : url(img/day.jpg) no-repeat fixed;
+}
+
+.margin-top-200{
+    margin-top : 200px;
+}
+
+p .flow-text{
+    color: red;
+}
+
+.padding-top-30{
+    padding-top: 30px;
+}
+
+.padding-bot-30{
+    padding-bot: 30px;
+}
+.brand-logo {
+    max-height: 100px;
+}
+
+.para{
+	height: 400px;
+}
+
+.float-left{
+    float: left;
+}
+.lien:hover{
+    color: #fff;
+}
+
+.lien:visited{
+    color: #fff;
+}
+
+.lien:clicked{
+    color: #fff;
+}
+
+/*********************************************
+				NAV ADMIN
+*********************************************/
+
+
+/* Start Globe */
+
+.ul-admin {
+    list-style: none;
+    color: #989DAC;
+    padding: 0;
+    margin: 0
+}
+
+hr {
+    border: 0;
+    background-color: #202228;
+    height: 1px;
+    margin: 0;
+    box-shadow: 1px 1px 2px #393838;
+}
+
+/* End Globe */
+
+/* Start  Navbar */
+.a-admin:hover{
+    color: #fff;
+}
+
+.a-admin:visited{
+    color: #fff;
+}
+
+.aside-admin {
+    float: left;
+    background-color: #27292F;
+    overflow: hidden;
+    min-height: 1000px;
+}
+
+.nav-admin .icon-admin .ul-admin {box-shadow: 2px 0 8px #000}
+
+.nav-admin .icon-admin .ul-admin .li-admin {padding: 20px}
+
+.nav-admin .icon-admin .ul-admin .li-admin:hover {
+    background-color: #5C9DF5;
+    color: #FFF;
+    cursor: pointer    
+}
+
+.nav-admin .icon-admin .ul-admin .select {
+    background-color: #191B1E;
+    border-left: 3px solid #5C9DF5
+}
+
+.nav-admin .icon-admin, .nav-admin .options {float: left}
+
+.nav-admin .options p {
+    color: #FFF;
+    font-size: 20px;
+    padding: 5px 40px 5px 20px
+}
+
+.nav-admin .options h6 {
+    color: #383B42;
+    font-family: Arial, Tahoma;
+    padding-left: 20px;
+    margin: 10px 0
+}
+
+.nav-admin .options .ul-admin .li-admin {
+    padding: 5px 5px 5px 20px;
+    height: 35px}
+
+.nav-admin .options .ul-admin .li-admin:hover {
+    background-color: rgba(0,0,0,0.2);
+    cursor: pointer 
+}
+
+.nav-admin .options .ul-admin .li-admin span {
+    margin-left: 20px;
+    border: 1px solid #4B4E57 ;
+    padding: 2px 5px;
+    border-radius: 48%;
+    font-size: 11px;
+    color: #4B4E57
+}
+
+.nav-admin .options .nu {padding-left: 8px;padding-right: 8px}
+
+/* End Navbar */
+
+
+
+/*********************************************
+				HEADER
+*********************************************/
+.header-login{
+    
+	height: 100px;
+	position: fixed;
+	top : 0;	
+    /*background-color: #fafafa;*/
+}
+
+h2 .header
+{
+	font-size: 40px;
+}
+
+.margin-bot-30{
+	margin-bottom: 30px;
+}
+
+img.responsive-img, video.responsive-video, .card .card-image img{
+	max-height: 250px;
+}
+/*********************************************
+				FOOTER
+*********************************************/
+
+.footer{
+	background-color: #90a4ae;
+	height: auto;
+}
+
+footer p{
+	color: #fff;
+	text-align: center;
+	font-size:12px; 
+}
+
+footer .row{
+	margin-bottom: 0;
+}
